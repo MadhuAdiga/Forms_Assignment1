@@ -7,7 +7,7 @@
       <!-- For the input name, check for required field and minlength and assign ngModel directive for two way binding -->
       <div *ngIf="nameRef.errors && (nameRef.dirty || nameRef.touched)" class="alert alert-danger"><!--  Display only if user has attempted to enter values into the field -->
            <div [hidden]="!nameRef.errors.required"> Please enter a name</div><!-- Display alert only if user has not entered in the field -->
-           <div [hidden]="!nameRef.errors.minlength"> Please enter 4 characters</div>  <!-- Display alert only if user has not entered min length of input -->         
+           <div [hidden]="!nameRef.errors.minlength"> Please enter atleast 4 characters</div>  <!-- Display alert only if user has not entered min length of input -->         
       </div>
     </div>
 
