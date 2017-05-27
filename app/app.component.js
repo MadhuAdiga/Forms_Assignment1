@@ -19,11 +19,11 @@ var AppComponent = (function () {
         core_1.Component({
             selector: 'my-app',
             templateUrl: "./app/app.component.html",
-            styles: ["\n            input.ng-invalid {border-left:5px solid red;}\n            input.ng-valid {border-left:5px solid green;}\n            "]
+            styles: ["\n            input.ng-invalid {border-left:5px solid red;} \n            input.ng-valid {border-left:5px solid green;}\n            "]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
     return AppComponent;
 }());
-exports.AppComponent = AppComponent;
+exports.AppComponent = AppComponent; // Logs valid input values to the console on submit
 //# sourceMappingURL=app.component.js.map
